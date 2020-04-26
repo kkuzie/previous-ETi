@@ -21,15 +21,16 @@ h2 {
     padding-top: 50px;
     margin-bottom: 0;
 }
+h3 {
+    font-size: 300%;
+    margin-bottom: 30px;
+}
 h3, h4 {
     font-weight: 400;
     color: #527380;
     line-height: 30px;
 }
-h3 {
-    font-size: 300%;
-    margin-bottom: 30px;
-}
+
 h4 {
     font-size: 250%;
     line-height: 150%;
@@ -58,15 +59,6 @@ p {
 }
 #awardwinner, #fee-based, #steps {
     margin-bottom: 50px;
-}
-/* header images - about, employer and student pages */
-.headerpic {
-    position: relative;
-    width: 100%;
-    height: auto;  
-}
-.headerpic img {
-    width: 100%;
 }
 /* navbar - all pages*/
 .navbar {
@@ -147,6 +139,7 @@ button:hover {
     color: #fff;
     border-color: #ff7e00;
 }
+
 /* contact us banner - all pages */
 #contactbanner {
     width: 960px;
@@ -411,25 +404,21 @@ hgroup p {
 .studentimg {
     margin-left: 80px;
 }
-/* home page - ETI CLIENTS boxes  
+/* home page - ETI CLIENTS image hovers/boxes  
 Sam code */
 .clients {
     background: #e1f3fc;
     width: 100%;
     margin: auto;
 }
-div.row.three-by-three {
-    margin-bottom: 50px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.container img {
-    width: 300px;
-    height: 300px;
-}
 .container {
     width: 100%;
     margin: 100px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+div.row.three-by-three {
+    margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -447,19 +436,23 @@ div.row.three-by-three {
     position: relative;
     overflow: hidden;
 }
-.container .box .imgBox h4 {
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    line-height: 35px;
-    width: 300px;
-}
 .container .box .imgBox img {
     max-width: 100%;
     transition: transform  2s;
 }
 .container .box:hover .imgBox img {
     transform: scale(1.2);
+}
+.container img {
+    width: 300px;
+    height: 300px;
+}
+.container .box .imgBox h4 {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    line-height: 35px;
+    width: 300px;
 }
 .container .box .details {
     position: absolute;
@@ -492,6 +485,15 @@ div.row.three-by-three {
         margin: 10px 0 0;
         padding: 0;
 }
+/* header images - about, employer and student pages */
+.headerpic {
+    position: relative;
+    width: 100%;
+    height: auto;  
+}
+.headerpic img {
+    width: 100%;
+}
 /* KAREN code */
 /* about eti page */
 #whypartner p:first-child {
@@ -509,13 +511,18 @@ div.row.three-by-three {
 .col-lg-6 {
     padding-left: 0;
 }
-.award h3 {
-    margin-bottom: 0;
-}
+
 #awardwinner img {
     position: relative;
     height: auto;
     max-width: 110%;
+}
+.award h3 {
+    margin-bottom: 0;
+}
+#awardlogo2 {
+    max-width: 30%;
+    margin: 20px auto;
 }
 #awardlogo {
     top: 50px;
@@ -523,11 +530,16 @@ div.row.three-by-three {
     margin: auto 50px auto 20px;
     padding-left: 50px;
 }
-#awardlogo2 {
-    max-width: 30%;
-    margin: 20px auto;
-}
+
 /* STUDENTS page */
+button#catalog  {
+    margin-left: 280px;
+}
+button#schedule , button#register  {
+    margin-left: 30px;
+}
+
+/* for future buttons that link to catalogs, schedules, register */
 #offerbuttons button {
     background: #b3eaff;
     color: #527380;
@@ -535,26 +547,21 @@ div.row.three-by-three {
     height: 60px;
     margin-top: 250px;
 }
-button#catalog  {
-    margin-left: 280px;
-}
-button#schedule , button#register  {
-    margin-left: 30px;
-}
 #offerbuttons button:hover {
     background: #ff7e00;
     color: #fff;
 }
+
 /* LINKS LIST student page - SAM code  */
 .flex1, .flex2 {
     width: 450px;
     margin: 10px;
 }
-.flex2 {
-    float: left;
-}
 .flex1 {
     float: right;
+}
+.flex2 {
+    float: left;
 }
 .card-header {
     background-color: rgba(225,243,252,.3)
@@ -562,14 +569,6 @@ button#schedule , button#register  {
 .card button {
     font-size: 100%;
 }
-.card ul li a {
-    font-size: 150%;
-    text-decoration: none;
-}
-.card ul li a:hover {
-    color: #527380;
-}
-
 .btn-link {
     font-weight: 400;
     color: #527380;
@@ -580,6 +579,14 @@ button#schedule , button#register  {
     text-decoration: none;
     border: none;
 }
+.card ul li a {
+    font-size: 150%;
+    text-decoration: none;
+}
+.card ul li a:hover {
+    color: #527380;
+}
+
 /* student page - Karen code */
 #etpl ul, #fee-based ul {
     font-size: 170%;
@@ -1151,7 +1158,6 @@ padding-left: 200px;
 button.btn {
     margin: 0;
 }
-
 
 /* FOOTER SECTION all pages*/
 .footabout, .partnership, .footnav {

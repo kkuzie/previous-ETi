@@ -1,0 +1,1166 @@
+/* all pages */
+body {
+    background: #fff;
+    width: 100%;
+    margin: auto;
+    font-family: 'khand', sans-serif;
+    overflow-x: hidden;
+}
+h1 {
+    font-size: 9vw;
+    font-weight: 700;
+    color:#fff;
+    padding-top: 10vw;
+    padding-left: 12vw;
+    position: absolute;
+}
+h2 {
+    font-size: 550%;
+    font-weight: 600;
+    color:#527380;
+    padding-top: 50px;
+    margin-bottom: 0;
+}
+h3, h4 {
+    font-weight: 400;
+    color: #527380;
+    line-height: 30px;
+}
+h3 {
+    font-size: 300%;
+    margin-bottom: 30px;
+}
+h4 {
+    font-size: 250%;
+    line-height: 150%;
+    margin-bottom: 10px;
+}
+h6 {
+    font-size: 150%;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin-top: 35px;
+    margin-bottom: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+p {
+    font-size: 170%;
+    font-weight: 500;
+    color: #527380;
+    margin-bottom: 0;
+    margin-top:30px;
+}
+/* multiple pages affected */
+.row, #abouteti, #awardwinner, #certs, #etpl, #fee-based, .mission, #whypartner, #whymatter, #steps, .bd-example {
+    width: 960px;
+    margin: auto;
+}
+#awardwinner, #fee-based, #steps {
+    margin-bottom: 50px;
+}
+/* header images - about, employer and student pages */
+.headerpic {
+    position: relative;
+    width: 100%;
+    height: auto;  
+}
+.headerpic img {
+    width: 100%;
+}
+/* navbar - all pages*/
+.navbar {
+    height: 125px;
+}
+/* new sam code renamed from medPic*/
+.logoWithTextbottom{
+    display: none;
+}
+/* karen code */
+ul#navigation li {
+    list-style: none;
+    display: inline;
+}
+.navbar ul li a {
+    font-size: 200%;
+    padding: 0 25px 0 25px;
+    color: black;
+    text-decoration: none;
+}
+ul {
+    margin: 10px;
+}
+.navbtn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: transparent;
+    cursor: pointer;
+}
+/* sam changed/added code */
+  /* Style the active class, and buttons on mouse-over */
+.navbtn.active, .navbtn:hover {
+    background-color: #ff7e00;
+    color: white;
+}
+nav.navbar-expand-sm.navbar-light {
+    visibility: hidden;
+    height: 0;
+}
+.navbar-nav {
+    font-size: x-small;
+    text-align: center;
+}
+.bg-light {
+    background-color: #fff !important;
+}
+.navbar .container-fluid {
+    flex-wrap: nowrap;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: #ff7e00;
+}
+
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+.navbar-light .navbar-toggler-icon {
+    background: url('/images/hamburger.svg') center center no-repeat;
+    background-size: 100%;
+}
+.navbar-toggler-icon {
+    width: 40px;
+    height: 40px;
+}
+button {
+    padding: 0;
+}
+button:hover {
+    color: #fff;
+    border-color: #ff7e00;
+}
+/* contact us banner - all pages */
+#contactbanner {
+    width: 960px;
+    margin: auto;
+}
+#contactbanner p {
+    font-size: 220%;
+    color: #527380;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 40px;
+    margin-top: 0;
+}
+.contactbanner {
+    background: #b3eaff;
+    height: 235px;
+}
+.contact-button button {
+    background: #00ADEF;
+    margin: 20px 37%;
+    color: #fff;
+    font-size: 200%;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+#popup {
+    border: none;
+    outline: none;
+    width: 25%;
+    height: 65px;
+}
+.contact-button button:hover {
+    background: #ff7e00;
+    color: #fff;
+}
+.contact-button h3{
+    padding: 20px 52px;
+}
+/* contact us button popup - all pages - karen code */
+#contactus_form {
+    width:100%;
+    height:100%;
+    opacity:.95;
+    top:0;
+    left:0;
+    display:none;
+    position:fixed;
+    background-color:#527380;
+    overflow:auto;
+    }
+    img#close {
+    position:absolute;
+    right:-14px;
+    top:-14px;
+    cursor:pointer;
+    }
+    div#popupContact {
+    position:absolute;
+    left:50%;
+    top:17%;
+    margin-left:-140px;
+    }
+    form {
+    max-width:500px;
+    min-width:250px;
+    padding:10px 50px;
+    border:2px solid #527380;
+    border-radius:3px;
+    background-color:#A9ECFF;
+    text-align: center;
+    }
+    #form h2 {
+    background-color: #00ADEF;
+    color: #fff;
+    padding:20px 35px;
+    margin:-10px -50px;
+    text-align:center;
+    border-radius:3px 3px 0 0;
+    font-size: 300%;
+    }
+    hr {
+    margin:10px -50px;
+    border:0;
+    border-top:1px solid #527380;
+    }
+    #form a {
+        color: #527380;
+        text-decoration: none;
+    }
+    #form a:hover {
+        color: #00ADEF;
+    }
+    input[type=text] {
+    width:100%;
+    padding:10px;
+    margin-top:30px;
+    border:1px solid #527380;
+    padding-left:40px;
+    font-size:16px;
+    }
+    #name {
+    background-image:url(../images/name.jpg);
+    background-repeat:no-repeat;
+    background-position:5px 7px;
+    }
+    #email {
+    background-image:url(../images/email.png);
+    background-repeat:no-repeat;
+    background-position:5px 7px;
+    }
+    textarea {
+    background-image:url(../images/msg.png);
+    background-repeat:no-repeat;
+    background-position:5px 7px;
+    width:100%;
+    height:95px;
+    padding:10px;
+    resize:none;
+    margin-top:30px;
+    border:1px solid #527380;
+    padding-left:40px;
+    font-size:16px;
+    margin-bottom:30px;
+    }
+    #submit {
+    text-decoration:none;
+    width:100%;
+    text-align:center;
+    display:block;
+    background-color:#00adef;
+    color:#E1F3FC;
+    border:1px solid #527380;
+    padding:10px 0;
+    font-size:20px;
+    cursor:pointer;
+    border-radius:3px;
+    }
+    #submit:hover {
+        background-color: #b3eaff;
+        color: #527380;
+    } 
+/* footer all pages */
+.greyfoot {
+    background: #527380;
+    height: 235px;
+    width: 100%;
+    position: relative;
+    color: #fff;
+}
+.footnav {
+    padding-left: 40px;
+}
+.footnav ul{
+    list-style-type: none;
+    margin: 10px 0 0;
+}
+.footnav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.footnav ul li a:hover{
+    color:#00adef;  
+}
+.footcontact p, .footabout p {
+    font-size: 100%;
+    color:#fff;
+    padding-top: 10px;
+    margin: auto 50px auto auto;
+} 
+.footcontact a {
+    color: #fff;
+}
+.footcontact a:hover {
+    text-decoration: none;
+    color: #00adef;
+}
+.footnav, .footcontact, .partnership {
+    height: 230px;
+}
+.partnership {
+    height: 235px;
+    padding-left: 40px;
+}
+.partnership img {
+    margin: 20px 0 0 8px;
+    height: auto;
+    width: 80%;
+}
+/* home page */
+/* carousel SAM code */
+img.d-block.w-100 {
+    height: 550px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon, .carousel-indicators {
+    width: 0;
+    height: 0;
+}
+/* carousel karen code */
+.carousel-caption img {
+    margin-left: -22%;
+}
+#captionbg {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+#captionbg img {
+    width: 100%;
+}
+.carousel-caption h1 {
+    padding-left: 0;
+    padding-top: 0;
+    bottom: 15px;
+    left: 6%;
+}
+/* home page - Mission section 
+ Sam code*/
+ hgroup {
+    position: relative;
+    width: 100%;
+    background-color: #527380;
+    color: white;
+}
+hgroup h2 {
+    color: #fff;
+}
+hgroup p {
+    font-size: 225%;
+    color: #fff;
+}
+.mission {
+    height: 575px;
+}
+/* home page - Students and Employer section -  SAM code */
+.emplstud {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 960px;
+    margin: auto;
+}
+.emplstud img {
+    width: 400px;
+    height: auto;
+}
+#studentclick {
+    position: relative;
+}
+#emplstudclick h3 {
+    position: absolute;
+    margin: 285px auto auto 100px;
+}
+#emplstudclick h3:hover {
+    color: #00ADEF;
+}
+.employerimg, .studentimg {
+    margin: auto;
+}
+.employerimg {
+    margin-right: 80px;
+}
+.studentimg {
+    margin-left: 80px;
+}
+/* home page - ETI CLIENTS boxes  
+Sam code */
+.clients {
+    background: #e1f3fc;
+    width: 100%;
+    margin: auto;
+}
+div.row.three-by-three {
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container img {
+    width: 300px;
+    height: 300px;
+}
+.container {
+    width: 100%;
+    margin: 100px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.container .box .imgBox {
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imgBox h4 {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    line-height: 35px;
+    width: 300px;
+}
+.container .box .imgBox img {
+    max-width: 100%;
+    transition: transform  2s;
+}
+.container .box:hover .imgBox img {
+    transform: scale(1.2);
+}
+.container .box .details {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(82, 115, 128, .9);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+.container .box:hover .details {
+    transform: scaleY(1);
+}
+.container .box .details .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    padding: 15px;
+    color: #fff;
+}
+.container .box .details .content h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #fff;
+}
+.container .box .details .content p {
+        margin: 10px 0 0;
+        padding: 0;
+}
+/* KAREN code */
+/* about eti page */
+#whypartner p:first-child {
+    margin-top: 50px;
+}
+.partnerpoints h3:nth-child(1), .award h3 {
+    margin-top: 30px;
+}
+.partnerpoints p {
+    padding-bottom: 30px;
+}
+.partnerpoints p:nth-last-child(1) {
+    padding-bottom: 0;
+}
+.col-lg-6 {
+    padding-left: 0;
+}
+.award h3 {
+    margin-bottom: 0;
+}
+#awardwinner img {
+    position: relative;
+    height: auto;
+    max-width: 110%;
+}
+#awardlogo {
+    top: 50px;
+    left: 100px;
+    margin: auto 50px auto 20px;
+    padding-left: 50px;
+}
+#awardlogo2 {
+    max-width: 30%;
+    margin: 20px auto;
+}
+/* STUDENTS page */
+#offerbuttons button {
+    background: #b3eaff;
+    color: #527380;
+    font-size: 150%;
+    height: 60px;
+    margin-top: 250px;
+}
+button#catalog  {
+    margin-left: 280px;
+}
+button#schedule , button#register  {
+    margin-left: 30px;
+}
+#offerbuttons button:hover {
+    background: #ff7e00;
+    color: #fff;
+}
+/* LINKS LIST student page - SAM code  */
+.flex1, .flex2 {
+    width: 450px;
+    margin: 10px;
+}
+.flex2 {
+    float: left;
+}
+.flex1 {
+    float: right;
+}
+.card-header {
+    background-color: rgba(225,243,252,.3)
+}
+.card button {
+    font-size: 100%;
+}
+.card ul li a {
+    font-size: 150%;
+    text-decoration: none;
+}
+.card ul li a:hover {
+    color: #527380;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #527380;
+    text-decoration: none;
+}
+.btn-link:hover {
+    color: #00adef;
+    text-decoration: none;
+    border: none;
+}
+/* student page - Karen code */
+#etpl ul, #fee-based ul {
+    font-size: 170%;
+    font-weight: 500;
+    color: #527380;
+    margin: 30px 30px 0;
+}
+/* MEDIA QUERIES */
+/* karen code */
+@media screen and (min-width: 767px) and (max-width:1199px){
+/* ALL/MULTIPLE PAGES */
+h2 {
+    font-size: 450%;
+}
+h4 {
+    font-size: 175%;
+}
+h5 {
+    font-size: 125%;
+}
+.mission, .emplstud, .container, #contactbanner, .contact-button, .row, #abouteti, #whypartner, #awardwinner, #whymatter, #steps, #certs, #etpl, #fee-based, .bd-example {
+    max-width: 720px;
+}
+.navbar {
+    justify-content: center;
+}
+img.d-block.w-100 {
+    height: 350px;
+}
+#captionbg {
+    bottom: 20px;
+}
+/* MISSION SECTION on home page*/
+.mission {
+    height: 650px;
+}
+/* EMPLOYER STUDENTS SECTION on home page */
+.emplstud img {
+    width: 325px;
+    height: auto;
+}
+#emplstudclick h3 {
+    margin: 230px 0 auto 60px;
+}
+.employerimg {
+    margin-right: auto;
+}
+.studentimg {
+    margin-left: auto;
+}
+/* CLIENTS SECTION home page */
+.container .box {
+    width: 220px;
+    height: 220px;
+}
+.container img {
+    height: auto;
+}
+.container .box .imgBox h4 {
+    line-height: 25px;
+    width: 220px;
+    align-items: center;
+}
+.content ul {
+    margin: 5px;
+    line-height: 15px;
+}
+/* LINKS SECTION students page */
+.flex1, .flex2 {
+    width: 350px;
+}
+button.btn {
+    margin: 0;
+}
+.card ul li a {
+    font-size: 125%;
+}
+
+/* CONTACT BUTTON SECTION all pages */
+.contact-button button {
+    margin: 20px 35%;
+}
+#popup {
+    border: none;
+    outline: none;
+    width: 30%;
+}
+/* FOOTER all pages */
+.footabout {
+    display: none;
+}
+.col-md-3 {
+    -ms-flex: 0 0 33%;
+    flex: 0 0 33%;
+    max-width: 33%;
+}
+
+}
+@media screen and (min-width: 575px) and (max-width: 767px) {
+h2 {
+    font-size: 350%;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+h3 {
+    font-size: 250%;
+}
+h4 {
+    font-size: 150%;
+}
+p {
+    font-size: 135%;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+#etpl ul, #fee-based ul {
+    font-size: 135%;
+}
+.mission, .emplstud, .container, #contactbanner, .contact-button, .row, #abouteti, #whypartner, #awardwinner, #whymatter, #steps, #certs, #etpl, #fee-based, .bd-example {
+    width: 550px;
+}
+.navbar {
+    justify-content: center;
+}
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+} 
+   /* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ff7e00;
+    color: #fff;
+}
+    /* Add an active class to highlight the current page */
+.navbar a.active, .navbtn.active, .navbtn:hover{
+    background-color: #ff7e00;
+    color: #fff;
+}
+.navbar ul li a {
+    font-size: 175%;
+}
+    /* Hide the link that should open and close the topnav on small screens */
+.navbar .icon {
+    display: none;
+}
+img.d-block.w-100 {
+    height: 274px;
+}
+#captionbg {
+    bottom: 20px;
+}
+.carousel-caption h1 {
+    bottom: 5px;
+}
+/* MISSION SECTION */
+hgroup p {
+    font-size: 150%;
+}
+.mission {
+    height: 400px;
+}
+.three-by-three {
+    justify-content: center;
+}
+.container .box {
+    width: 160px;
+    height: 160px;
+    margin: 5px;
+}
+.container img {
+    height: auto;
+}
+.container .box .imgBox h4 {
+    line-height: 20px;
+    width: 160px;
+    margin-bottom: 5px;
+}
+.content ul {
+    margin: 5px;
+    font-size: 75%;
+    line-height: 12px;
+}
+#contactbanner p {
+    font-size: 175%;
+}
+.contact-button { 
+    width:100%;
+}
+.contact-button button {
+    margin: 20px 25%;
+}
+#popup {
+    border: none;
+    outline: none;
+    width: 50%;
+}
+#button, #schedule, #register, #catalog {
+    display: none;
+}
+/* LINKS LIST students page */
+.bd-example {
+    margin: auto 15px;
+}
+.flex1, .flex2 {
+    /* float: none; */
+    width: 500px;
+}
+.col-md-6 {
+    margin: 0px; 
+    padding: 0px;
+}
+.mb0 {
+    width: 300px;
+}
+.col-md-6, .col-md-3 {
+    width: auto;
+}
+.card button {
+    font-size: 85%;
+}
+.card ul li a {
+    font-size: 125%;
+}
+button.btn {
+    margin: 0;
+}
+#etpl ul, #fee-based ul {
+    font-size: 135%;
+}
+/* EMPLOYEE AND STUDENT SECTION */
+.emplstud {
+    display: block; 
+}
+.emplstud img {
+    width: 350px;
+}
+.employerimg, .studentimg {
+    /* width: 100%; */
+    margin: 0 auto;
+}
+.studentimg {
+    margin-bottom: 50px;
+}
+#emplstudclick h3 {
+    margin: 255px auto auto 100px;
+    width: 350px;
+}
+/* CONTAINER SECTION */
+.container {
+    margin: 0 auto;
+}
+.container h2 {
+    margin: 0 auto;
+}
+#accordionExample {
+    width: 390px;
+}
+.box1 {
+    width: 390px;
+}
+.box1 h5 {
+    margin-left: 70px;
+}
+.box2 {
+    width: 350px;
+} 
+ /* FOOTER NAVIGATION */
+ .footabout{
+    display: none;
+}
+.partnership {
+    width: 45%; 
+    display: block; 
+    height: 90%;
+    padding: 0
+}
+.footcontact {
+    /* padding: 0 0 0 15px; */
+    margin-left: -20px;
+    margin-right: 20px;
+}
+.col-md-3 {
+    flex: 0 0 33%;
+    max-width:33%;
+    padding: 0;
+}
+}
+/* sam code max 576 */
+@media screen and (min-width: 399px) and (max-width:575px) {
+h2 {
+    font-size: 300%;
+}
+h3 {
+    font-size: 190%;
+}
+h4 {
+    font-size: 135%;
+    margin-bottom: 0;
+}
+p, #etpl ul, #fee-based ul {
+    font-size: 125%;
+}
+.mission, .emplstud, .container, #contactbanner, .contact-button, .row, #abouteti, #whypartner, #awardwinner, #whymatter, #steps, #certs, #etpl, #fee-based, .bd-example, .flex1, .flex2 {
+    width: 375px;
+}
+.logo {
+    display: none;
+}
+.logoWithTextbottom img {
+    width: 150%;
+    height: auto;
+}
+.logoWithTextbottom {
+    display: block;  
+}
+.navbar {
+    visibility: hidden;
+}
+nav.navbar-expand-sm.navbar-light {
+    visibility: visible;
+    margin-top: -115px;
+    height: 100%;
+}
+img.d-block.w-100 {
+    height: 190px;
+}
+.carousel-caption h1 {
+    bottom: -2px;
+}
+#captionbg {
+    bottom: 20px;
+}
+hgroup p {
+    font-size: 125%;
+}
+.mission {
+    height: 450px;
+}
+.emplstud {
+    display: block;
+}
+.emplstud img {
+    width: 325px;
+}
+.employerimg, .studentimg {
+    margin: 0 auto;
+}
+#emplstudclick h3 {
+    margin: 230px auto auto 25px;
+    width: 325px;
+}
+.three-by-three {
+    justify-content: center;
+}
+.container .box {
+    width: 115px;
+    height: 115px;
+    margin: 5px;
+}
+.container .box .details {
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+}
+.container img {
+    height: auto;
+}
+.container .box .imgBox h4 {
+    line-height: 18px;
+    width: 115px;
+    margin-bottom: 0;
+    justify-content: center;
+}
+.content ul {
+    margin: 5px;
+    font-size: 60%;
+    line-height: 12px;
+}
+.content ul li {
+     margin-bottom: 0;
+}
+.container .box .details .content {
+    padding: 0;
+}
+.contactbanner {
+    height: 200px;
+}
+#contactbanner p {
+    font-size: 130%;
+    line-height: 30px;
+}
+.contact-button button {
+    margin: 20px 25%;
+}
+#popup {
+    width: 50%;
+}
+/* LINKS LIST students page */
+.flex1, .flex2 {
+    float: none;
+}
+.col-md-6 {
+    padding: 0;
+}
+.card ul li a {
+    font-size: 125%;
+}
+button.btn {
+    margin: 0;
+}
+
+
+/* FOOTER SECTION */
+.footabout, .partnership {
+    display: none;
+}
+.footnav {
+    padding: 0;
+}
+.col-md-3 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+}
+/* karen code max 400 */
+@media screen and (min-width: 240px) and (max-width:399px) {
+h2 {
+    font-size: 200%;
+}
+h3 {
+    font-size: 175%;
+}
+h4 {
+    font-size: 125%;
+}
+p, #etpl ul, #fee-based ul {
+    font-size: 100%;
+}
+.mission, .emplstud, .container, #contactbanner, .contact-button, .row, #abouteti, #whypartner, #awardwinner, #whymatter, #steps, #certs, #etpl, #fee-based, .bd-example, .flex1, .flex2 {
+    width: 250px;
+}
+.logo {
+    display: none;
+}
+.logoWithTextbottom img {
+    width: 125%;
+    height: auto;
+}
+.logoWithTextbottom {
+    display: block;  
+}
+.navbar {
+    visibility: hidden;
+}
+nav.navbar-expand-sm.navbar-light {
+    visibility: visible;
+    margin-top: -115px;
+    height: 100%;
+}
+img.d-block.w-100 {
+    height: 115px;
+}
+#captionbg { 
+    bottom: 20px;
+}
+.carousel-caption h1 {
+    bottom: -8px;
+}
+/* MISSION SECTION home page */
+.mission {
+    height: 450px;
+}
+.mission h2 {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.mission p {
+    font-size: 100%;
+}
+/* #second.flex2.card h5{
+padding-left: 200px;
+} */
+/* EMPLOYEE AND STUDENT SECTION home page*/
+.emplstud {
+    display: block;
+}
+.emplstud img {
+    width: 200px;
+}
+.employerimg,.studentimg {
+    margin: 0 auto;
+}
+#emplstudclick h3 {
+    margin: 135px auto auto 5px;
+    width: 200px;
+}
+/* CLIENTS SECTION */
+.container {
+    margin-top: 40px;
+    padding: 0;
+}
+.container .box {
+    width: 115px;
+    height: 115px;
+    margin: 5px;
+}
+.container .box .details {
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+}
+.container img {
+    height: auto;
+}
+.container .box .imgBox h4 {
+    line-height: 18px;
+    width: 115px;
+    margin-bottom: 0;
+    justify-content: center;
+}
+.content ul {
+    margin: 5px;
+    font-size: 60%;
+    line-height: 12px;
+}
+.content ul li {
+     margin-bottom: 0;
+}
+.container .box .details .content {
+    padding: 0;
+}
+/* CONTACT BUTTON BLUE SECTION all pages */
+.contactbanner {
+    height: 200px;
+}
+#contactbanner p{
+    font-size: 110%;
+    line-height: 20px;
+}
+#popup {
+    width: 100%;
+    margin: 20px 0 0 0;
+    color: white;
+    position: absolute;
+    left: 0;
+}
+ /* LINKS LIST students page */
+.flex1, .flex2 {
+    float: none;
+    margin: 10px 0px;
+}
+.col-md-6 {
+    padding: 0;
+}
+.card ul li a {
+    font-size: 125%;
+}
+button.btn {
+    margin: 0;
+}
+
+
+/* FOOTER SECTION all pages*/
+.footabout, .partnership, .footnav {
+    display: none;
+}
+.col-md-3 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 20%;
+}
+}

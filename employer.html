@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- my css and js-->
+
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/skeleton.css">
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <script src="js/myjs"></script>
+    <script>
+        // Add active class to the current nav button (highlight it)
+        var header = document.getElementById("navigation");
+        var btns = header.getElementsByClassName("navbtn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+          });
+        }
+    </script>
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Khand:300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <title>Employer</title>
+
+</head>
+
+<body>
+    <main>
+
+    <!-- karen nav code for over ?? -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logos/eti logo right side text.svg" alt="eti logo">
+        </div>
+        <ul id="navigation">
+            <li><a href="index.html" class="navbtn">Home</a></li>
+            <li><a href="abouteti.html" class="navbtn">About ETi</a></li>
+            <li><a href="employer.html" class="navbtn active">Employers</a></li>
+            <li><a href="students.html" class="navbtn">Students</a></li>
+        </ul>
+    </nav>
+
+    <!-- sam nav code -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <!-- need container-fluid for hamburger to stay on right -->
+        <!-- <div class="container-fluid"> -->
+            <div class="logo">
+                <img src="logos/eti logo right side text.svg" alt="eti logo">
+            </div>
+            <div class="logoWithTextbottom"><img src="logos/eti.svg" alt="eti logo"></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <!-- <ul id="navigation" class="navbar-nav ml-auto menu"> -->
+                    <ul class="navbar-nav">
+                    <li class="nav-item navbtn active">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item navbtn">
+                        <a href="abouteti.html" class="nav-link">About ETi</a>
+                    </li>
+                    <li class="nav-item navbtn">
+                        <a href="employer.html" class="nav-link">Employers</a>
+                    </li>
+                    <li class="nav-item navbtn">
+                        <a href="students.html" class="nav-link">Students</a>
+                    </li>
+                <!-- </ul> -->
+            </div>
+        <!-- </div> -->
+    </nav>
+
+        <!-- <nav class="navbar">
+            <div class="logo">
+                <img src="logos/eti logo right side text.svg" alt="eti logo"> 
+            </div>
+            <ul id="navigation">
+                <li><a class="navbtn" href="index.html">Home</a></li>
+                <li><a class="navbtn" href="abouteti.html">About ETi</a></li>
+                <li><a class="navbtn active" href="employer.html">Employers</a></li>
+                <li><a class="navbtn" href="students.html">Students</a></li>
+            </ul>
+        </nav> -->
+
+        <!-- header picture -->
+        <div class="headerpic">
+            <h1>What we do</h1>
+            <img src="images/svg versions/banner-employers-lightgrey.svg" alt="banner-employers-lightgrey">
+        </div>
+
+        <!-- about eti section -->
+        <div id="what-is-c-e">
+            <div class="row">
+                <h2>What is Contract Education?</h2>                
+                <div class="youtube-player" data-id="08kKW7kWTK8" data-related="0" data-control="0" data-info="0" data-fullscreen="0" style="width:100%;display: block; position: relative;cursor: pointer;max-height:550px;height:100%; overflow:hidden;padding-bottom:56.25%;margin:0 auto"> 
+                <img src="images/video cover.svg" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%;height:auto; position: absolute; right: 0; top: -100%;"></div> 
+            </div>
+        </div>
+
+        <!-- why partner section -->
+        <div id="what-is-c-e">
+            <div class="row">
+                <p>The Education Training Institute (ETI) at San Diego Continuing Education is a in a unique position to assist businesses, nonprofit organizations, and public entities with customized education and training for employees and/or clientele. Contract education services represent an entrepreneurial response to industry and employer needs to impact the success of regional businesses and other organizations the employ workers or train clients.
+                </p>
+                <p>Customized training through Contract Education provides local businesses with employee education and training that meets specific and immediate needs. Educational opportunities range from short-term training seminars to long-term training programs.
+                </p>
+                <p>ETI provides assistance and customized training support to employers and organizations that are increasing productivity. Plus, ETI works with organizations that workforce training and related skills (including English language instruction and soft skills trainings, such as customer service) to employers and organizations that facilitate the professional and personal growth of their clients.
+                </p>
+            </div>
+        </div>
+
+        <!-- contract ed section -->
+        <div id="whymatter">
+            <h2>Why does Contract Education matter?</h2>
+            <div id="linedivider">
+                <img src="images/line divider.svg" alt="divider">
+            </div>
+            <div class="row">
+                <p>ETI delivers training programs for both future and current workers to prepare them to be competitive in the application of emerging technologies. Many businesses and organizations need assistance in developing corporate cultures that unleash the creative genius of the workers, give them new tools to increase productivity and improve the quality of products and processes.
+                </p>
+                <p>Contract education services represent an entrepreneurial response to industry and employer needs to impact business. ETI takes deliberate efforts to reduce program costs to offer our partners the most competitive rates for education and training needs.
+                </p>
+            </div>
+        </div>
+
+        <!-- steps section -->
+        <div id="steps">
+            <h2>Steps for Success</h2>
+            <div id="linedivider">
+                <img src="images/line divider.svg" alt="divider">
+            </div>
+            <div class="row">
+                <p>Continuous learning is vital to stay competitive in the global marketplace. We take a multidisciplinary approach to working with our clients. First, we seek to understand the organization and how things are done. We ask a lot of questions. We do this because we want to know and understand how we can really help achieve your goals. All of this helps us start to build a framework for the training program (or issue) at question. When stakeholders are in agreement, we design a solution that best fits the organization with agreed upon measureable outcomes. This is a collaborative effort. The above steps should lead us to successful implementation, this is where the training occurs. Finally, we need to evaluate the work.
+                </p>
+                <p>Did the training lead to successful outcomes?<br>
+                    Can we measure it? <br>
+                    Did we advance the organization?<br>
+                    Did we do what we said we were going to do? <br>
+                <p>We believe in applied learning that is agile and fits the needs of are not satisfied until our clients are satisfied! According to California Education Code Section 78020, "Contract education means those situations in which a community college district contracts with a public or private entity for the purposes of providing instruction or services or both by the community college."
+                </p>
+                <p>ETI aims to "work systematically with collaborative partners and companies to strengthen the organization's effectiveness, competitiveness,and profitability through education, training, and services that contribute to continuous workforce improvement." (California Education Code Section 66010.43) With unparalleled access to curriculum and subject matter experts, flexible scheduling and delivery formats, plus projects managed through one consistent source, ETI manages a wide scope of projects for a business of any size or industry.
+                </p>
+            </div>
+        </div>
+
+        <!-- contact us banner  -->
+        <div class="contactbanner">
+            <div id="contactbanner">
+                <p>Let ETi help you take your company to the next level.<br>
+                Contact us for a free training consultation.</p>
+                <div class="contact-button">
+                    <button id="popup" onclick="div_show()">Contact Us!</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="greyfoot">
+            <div class="row">
+                <div class="col-md-3 footabout">
+                    <h6>About ETi</h6>
+                    <p>
+                        ETi has 40-years of experience as the leading workforce development training institution in the San Diego region. Train with us!
+                    </p>
+                </div>
+                <div class="col-md-3 footnav">
+                    <h6>Page Links</h6>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="abouteti.html">ABOUT ETi</a></li>
+                        <li><a href="employer.html">EMPLOYERS</a></li>
+                        <li><a href="students.html">STUDENTS</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footcontact">
+                    <h6>Connect with us</h6>
+                    <div itemscope itemtype="http://schema.org/Organization">
+                        <p><span itemprop="name">Employee Training Institute</span></p>
+                        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                            <a href="https://goo.gl/maps/W4DKHT5LpxJyzFoT6"><span itemprop="streetAddress">4343 Ocean View Boulevard</span><br>
+                            <span itemprop="addressLocality">San Diego, CA</span>
+                            <span itemprop="postalCode">92113-1915</span></a>
+                        </div>
+                          <span itemprop="telephone"><a href="tel:619-388-4956">619.388.4956</a></span><br>
+                          E-mail: <span itemprop="email"><a href="email:lcoskey@sdccd.edu">lcoskey@sdccd.edu</a></span>
+                    </div>
+                </div>
+                <div class="col-md-3 partnership">
+                    <h6>In partnership with</h6>
+                    <img src="logos/ContEdLogo.svg" alt="Continuing Education logo">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact us Button and form Starts Here -->
+    <div id="contactus" style="overflow:hidden;">
+        <div id="contactus_form">
+            <!-- Popup Div Starts Here -->
+            <div id="popupContact">
+                <!-- Contact Us Form -->
+                <form action="#" id="form" method="post" name="form">
+                    <img id="close" src="images/closing x.svg" onclick="div_hide()">
+                    <h2>Contact Us</h2>
+                    <hr>
+                    <p>
+                        Send an email to:
+                    </p>
+                    <p>
+                        Laurie Coskey<br>
+                        <a href="email:lcoskey@sdccd.edu">lcoskey@sdccd.edu</a></p>
+                    <p>
+                        or
+                        call us <br><span itemprop="telephone"><a href="tel:619-388-4956">619.388.4956</a></span> 
+                    </p>
+                </form>
+            </div>
+            <!-- Popup Div Ends Here -->
+        </div>
+    </div>
+
+    <!-- Java Query -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+        <script> (function() { var v = document.getElementsByClassName("youtube-player"); for (var n = 0; n < v.length; n++) { v[n].onclick = function () { var iframe = document.createElement("iframe"); iframe.setAttribute("src", "//www.youtube.com/embed/" + this.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&rel="+ this.dataset.related +"&controls="+this.dataset.control+"&showinfo=" + this.dataset.info); iframe.setAttribute("frameborder", "0"); iframe.setAttribute("id", "youtube-iframe"); iframe.setAttribute("style", "width: 100%; height: 100%; position: absolute; top: 0; left: 0;"); if (this.dataset.fullscreen == 1){ iframe.setAttribute("allowfullscreen", ""); } while (this.firstChild) { this.removeChild(this.firstChild); } this.appendChild(iframe); }; } })(); </script>
+
+</body>
+</html>

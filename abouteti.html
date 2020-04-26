@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- my css and js-->
+
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/skeleton.css">
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <script src="js/myjs"></script>
+    <script>
+        // Add active class to the current nav button (highlight it)
+        var header = document.getElementById("navigation");
+        var btns = header.getElementsByClassName("navbtn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+    
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Khand:300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <title>About ETi</title>
+
+</head>
+
+<body>
+    <main>
+
+    <!-- karen nav code for over ?? -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logos/eti logo right side text.svg" alt="eti logo">
+        </div>
+        <ul id="navigation">
+            <li><a href="index.html" class="navbtn">Home</a></li>
+            <li><a href="abouteti.html" class="navbtn active">About ETi</a></li>
+            <li><a href="employer.html" class="navbtn">Employers</a></li>
+            <li><a href="students.html" class="navbtn">Students</a></li>
+        </ul>
+    </nav>
+
+    <!-- sam nav code -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <!-- need container-fluid for hamburger to stay on right -->
+        <!-- <div class="container-fluid"> -->
+            <div class="logo">
+                <img src="logos/eti logo right side text.svg" alt="eti logo">
+            </div>
+            <div class="logoWithTextbottom"><img src="logos/eti.svg" alt="eti logo"></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <!-- <ul id="navigation" class="navbar-nav ml-auto menu"> -->
+                    <ul class="navbar-nav">
+                    <li class="nav-item navbtn active">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item navbtn">
+                        <a href="abouteti.html" class="nav-link">About ETi</a>
+                    </li>
+                    <li class="nav-item navbtn">
+                        <a href="employer.html" class="nav-link">Employers</a>
+                    </li>
+                    <li class="nav-item navbtn">
+                        <a href="students.html" class="nav-link">Students</a>
+                    </li>
+                <!-- </ul> -->
+            </div>
+        <!-- </div> -->
+    </nav>
+
+        <!-- header picture -->
+        <div class="headerpic">
+            <h1>Who we are</h1>
+            <img src="images/svg versions/banner-about_eti-grey.svg" alt="banner-about_eti-grey">
+        </div>
+        <!-- about eti section -->
+        <div id="abouteti">
+            <h2>About ETi</h2>
+            <div id="linedivider">
+                <img src="images/line divider.svg" alt="divider">
+            </div>
+            <div class="about">
+                <p>San Diego Community Colleges District’s Employee Training Institute (ETi) provides fee-based
+                    education and contract education programs to the San Diego region and beyond, with the goal of
+                    empowering students and the business community to earn degrees and skills certificates within many
+                    local industries.</p>
+                <p>ETi provides customized training for nonprofit organizations and public entities. Instruction can
+                    take place either at the workplace or in ETi classrooms and learning labs. We offer day, evening and
+                    weekend training, developed around your organization's needs. ETi can also deliver comprehensive
+                    state-approved, accredited degree and certificate programs to your organization’s employees or
+                    clients.</p>
+                <p>ETi faculty are experts. All faculty are required to know and teach current trends and the latest
+                    advancements in their discipline or industry.</p>
+                <p>ETi is committed to maintaining our 40-year reputation as the leading workforce development training
+                    institution in the San Diego region, so we keep overhead costs at a minimum to ensure we can offer
+                    exceptional programs at the most competitive rate. </p>
+            </div>
+        </div>
+
+        <!-- why partner section -->
+        <div id="whypartner">
+            <h2>Why partner with ETi?</h2>
+            <div id="linedivider">
+                <img src="images/line divider.svg" alt="divider">
+            </div>
+
+            <div class="row">
+                <div class="partnerpoints">
+                    <h3>We know the local market.</h3>
+                    <p>We understand local business trends and economies, and we work with regional subject matter
+                        experts to customize our programs, delivering the specific return-on-investment benchmarks that
+                        businesses seek.</p>
+                    <h3>We understand how adults learn.</h3>
+                    <p> Andragogy is our primary area of expertise. We provide training programs fully online, in-person
+                        or in blended model formats with wrap-around services such as one-on-one coaching, case
+                        management services, academic and career counseling, tutoring series, pre- and post-work needs
+                        assessments, and post-program evaluations. We differentiate instruction to meet the needs of the
+                        individual learning meeting each learner at their level of comprehension and build upon their
+                        prior experience.</p>
+                    <h3>We have a size & scope that sets us apart.</h3>
+                    <p>With unparalleled access to curriculum and subject matter experts, ETi offers thousands of
+                        courses, certificates, and degree options offered by the four colleges that comprise the San
+                        Diego Community College District, from aviation and nursing to coding and HVAC. Flexible
+                        scheduling and delivery formats, and projects managed through one consistent source, ETi can
+                        manage a wide scope of projects for a business of any size or industry.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- award section -->
+        <div id="awardwinner">
+            <h2>2019 Award Winner</h2>
+            <div id="linedivider">
+                <img src="images/line divider.svg" alt="divider">
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 award">
+                    <h3>Heather Van Sickle</h3>
+                    <h4>Entrepreneurial College of the Year</h4>
+                    <p>This award recognizes schools that have demonstrated a strong commitment to entrepreneurship both
+                        inside and outside the classroom. </p>
+                </div>
+                <div class="col-lg-6">
+                    <div id="awardlogo2">
+                        <img src="images/hvsa-gold-small.png" alt="hvsa award logo">
+                    </div>
+                    <div id="awardlogo">
+                        <img src="logos/nacce-full-logo-full-color-1000x170.png" alt="nacce logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact us banner  -->
+        <div class="contactbanner">
+            <div id="contactbanner">
+                <p>Let ETi help you take your company to the next level.<br>
+                    Contact us for a free training consultation.</p>
+
+                <div class="contact-button">
+                    <button id="popup" onclick="div_show()">Contact Us!</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="greyfoot">
+            <div class="row">
+                <div class="col-md-3 footabout">
+                    <h6>About ETi</h6>
+                    <p>
+                        ETi has 40-years of experience as the leading workforce development training institution in the San Diego region. Train with us!
+                    </p>
+                </div>
+                <div class="col-md-3 footnav">
+                    <h6>Page Links</h6>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="abouteti.html">ABOUT ETi</a></li>
+                        <li><a href="employer.html">EMPLOYERS</a></li>
+                        <li><a href="students.html">STUDENTS</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footcontact">
+                    <h6>Connect with us</h6>
+                        <div itemscope itemtype="http://schema.org/Organization">
+                            <p><span itemprop="name">Employee Training Institute</span></p>
+                            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                <a href="https://goo.gl/maps/W4DKHT5LpxJyzFoT6"><span itemprop="streetAddress">4343 Ocean View Boulevard</span><br>
+                                <span itemprop="addressLocality">San Diego, CA</span>
+                                <span itemprop="postalCode">92113-1915</span></a>
+                            </div>
+                              <span itemprop="telephone"><a href="tel:619-388-4956">619.388.4956</a></span><br>
+                              E-mail: <span itemprop="email"><a href="email:lcoskey@sdccd.edu">lcoskey@sdccd.edu</a></span>
+                        </div>
+                    </div>
+                <div class="col-md-3 partnership">
+                    <h6>In partnership with</h6>
+                    <img src="logos/ContEdLogo.svg" alt="Continuing Education logo">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact us Button and form Starts Here -->
+    <div id="contactus" style="overflow:hidden;">
+        <div id="contactus_form">
+            <!-- Popup Div Starts Here -->
+            <div id="popupContact">
+                <!-- Contact Us Form -->
+                <form action="#" id="form" method="post" name="form">
+                    <img id="close" src="images/closing x.svg" onclick="div_hide()">
+                    <h2>Contact Us</h2>
+                    <hr>
+                    <p>
+                        Send an email to:
+                    </p>
+                    <p>
+                        Laurie Coskey<br>
+                        <a href="email:lcoskey@sdccd.edu">lcoskey@sdccd.edu</a></p>
+                    <p>
+                        or
+                        call us <br><span itemprop="telephone"><a href="tel:619-388-4956">619.388.4956</a></span> 
+                    </p>
+                </form>
+            </div>
+            <!-- Popup Div Ends Here -->
+        </div>
+    </div>
+
+    <!-- Java Query -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    </div>
+</body>
+
+</html>
